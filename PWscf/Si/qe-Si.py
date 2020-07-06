@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from ase.build import bulk
 from ase.calculators.espresso import Espresso
 atoms = bulk("Si") #バルクのSiの用意
